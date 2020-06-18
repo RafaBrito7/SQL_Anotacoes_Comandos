@@ -1,0 +1,25 @@
+<h1>SQL_Anotacoes_Comandos</h1>
+<h2>Anotações do Curso de MySQL</h2>
+
+<h3>*CRIANDO O BANCO DE DADOS*</H3>
+  - ***CREATE DATABASE*** NAME_EXAMPLE;
+  
+<h3>*CONECTANDO-SE AO BANCO DE DADOS*</H3>
+  - **USE** NAME_EXAMPLE;
+  
+<h3>*CRIANDO UMA TABELA CLIENTE*</H3>
+  - **CREATE TABLE** CLIENTE(
+      NOME VARCHAR(30),
+      SEXO CHAR(1), (Exemplo de Tunning otimização de perfomance de um DB)
+      EMAIL VARCHAR(30),
+      CPF INT(11),
+      TELEFONE VARCHAR(30),
+      ENDERECO VARCHAR(100)
+      );
+			
+<h3>*VERIFICANDO AS TABELAS DE UM BANCO*</H3>
+  - **USE** NAME_EXAMPLE;
+	- **SHOW** TABLES;
+	
+<h3>*DESCOBRINDO COMO É A ESTRUTURA (OS CAMPOS) DAS TABELAS*</H3>
+	- **DESC* CLIENTE;
